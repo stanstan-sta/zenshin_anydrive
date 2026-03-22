@@ -17,6 +17,8 @@ asarUnpack:
 win:
   executableName: Zenshin
 nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
   uninstallDisplayName: ${productName}
